@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Formulaire de contact",
+        "acfe_form_name": "form_contact",
+        "acfe_form_field_groups": [
+            "group_5f685beee7074"
+        ],
+        "acfe_form_actions": [
+            {
+                "acf_fc_layout": "email",
+                "field_acfe_form_email_custom_alias": "",
+                "field_acfe_form_email_from": "MONSITE <wordpress@monsite.test>",
+                "field_acfe_form_email_to": "contact@monsite.test",
+                "field_acfe_form_email_reply_to": "",
+                "field_acfe_form_email_cc": "",
+                "field_acfe_form_email_bcc": "",
+                "field_acfe_form_email_subject": "MONSITE - Message reçu depuis le site",
+                "field_acfe_form_email_content": "Bonjour,\r\n\r\nVous avez reçu un message depuis le site :\r\n\r\n{fields}",
+                "field_acfe_form_email_files": false,
+                "field_acfe_form_email_files_static": false,
+                "field_acfe_form_email_advanced_args": null,
+                "field_acfe_form_email_advanced_send": null
+            }
+        ],
+        "acfe_form_field_groups_rules": "0",
+        "acfe_form_form_element": "1",
+        "acfe_form_attributes": {
+            "field_acfe_form_attributes_class": "acf-form",
+            "field_acfe_form_attributes_id": ""
+        },
+        "acfe_form_fields_attributes": {
+            "field_acfe_form_fields_wrapper_class": "",
+            "field_acfe_form_fields_class": ""
+        },
+        "acfe_form_form_submit": "1",
+        "acfe_form_submit_value": "Envoyer ma demande <i class=\"far fa-paper-plane ml-3\"><\/i>",
+        "acfe_form_html_submit_button": "<button type=\"submit\" class=\"acf-button btn-primary\">%s<\/button>",
+        "acfe_form_html_submit_spinner": "<span class=\"acf-spinner\"><\/span>",
+        "acfe_form_honeypot": "1",
+        "acfe_form_kses": "1",
+        "acfe_form_uploader": "default",
+        "acfe_form_form_field_el": "div",
+        "acfe_form_label_placement": "top",
+        "acfe_form_instruction_placement": "label",
+        "acfe_form_custom_html_enable": "1",
+        "acfe_form_html_before_fields": "",
+        "acfe_form_html_after_fields": "",
+        "acfe_form_hide_error": "0",
+        "acfe_form_hide_revalidation": "0",
+        "acfe_form_hide_unload": "0",
+        "acfe_form_errors_position": "above",
+        "acfe_form_errors_class": "",
+        "acfe_form_updated_hide_form": "0",
+        "acfe_form_return": "",
+        "acfe_form_updated_message": "<p style=\"text-align: center;\"><strong>Votre message a bien été envoyé.<\/strong><\/p>",
+        "acfe_form_html_updated_message": "<div id=\"message\" class=\"updated\">%s<\/div>",
+        "acfe_form_custom_html": "<style>.acf-field { margin: 0 !important; } .acf-form-submit { text-align: center; }<\/style>\r\n<div class=\"grid gap-4 my-4 grid-cols-1 lg:grid-cols-2\">\r\n\t\t\t\t{field:nom}\r\n\t\t\t\t{field:prenom}\r\n\t\t\t\t{field:email}\r\n\t\t\t\t{field:telephone}\r\n<\/div>\r\n<div class=\"grid gap-4 grid-cols-1 my-4\">\r\n\t\t\t\t{field:message}\r\n\t\t\t\t{field:opt-in}\r\n\t\t\t\t{field:captcha}\r\n<\/div>"
+    }
+]
